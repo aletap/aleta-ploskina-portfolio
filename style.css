@@ -1,0 +1,198 @@
+/* ================================
+   Global Reset & Base Styles
+================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #1f2937;       /* dark slate */
+  --secondary: #2563eb;     /* blue accent */
+  --background: #f9fafb;   /* light gray */
+  --card-bg: #ffffff;
+  --text: #374151;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* ================================
+   Layout
+================================ */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+/* ================================
+   Header
+================================ */
+header {
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #ffffff;
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+header h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #d1d5db;
+}
+
+header p {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+  color: #9ca3af;
+}
+
+header a {
+  color: #93c5fd;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   Sections
+================================ */
+section {
+  margin-top: 3rem;
+}
+
+section h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 1.2rem;
+  border-left: 4px solid var(--secondary);
+  padding-left: 0.75rem;
+}
+
+/* ================================
+   Cards (Experience, Education)
+================================ */
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.card .subtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.8rem;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+   Skills
+================================ */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+.skill-group {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.4rem;
+}
+
+.skill-group h4 {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  color: var(--primary);
+}
+
+.skill-group p {
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+/* ================================
+   Certifications & Highlights
+================================ */
+.list {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.6rem;
+}
+
+.list ul {
+  padding-left: 1.2rem;
+}
+
+.list li {
+  margin-bottom: 0.6rem;
+}
+
+/* ================================
+   Footer
+================================ */
+footer {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+footer a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   Responsive
+================================ */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.4rem;
+  }
+}
