@@ -1,4 +1,10 @@
 # Aleta Ploskina — Senior Quality Assurance Engineer | SDET | Applied AI / Python Developer
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)
+![Playwright](https://img.shields.io/badge/Tested%20With-Playwright-blue)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-success)
+![Python](https://img.shields.io/badge/Python-Active-blue)
+![AI](https://img.shields.io/badge/Focus-Applied%20AI-informational)
+
 
 This repository contains the source code for my professional portfolio website.
 It highlights my experience as a Senior Quality Assurance Engineer (SDET) and my
@@ -45,19 +51,23 @@ Frontend demo application used as a target system for automation and testing.
 
 ## About Me | Senior QA Engineer to Applied AI / Python Developer
 
-I am a results-driven Senior Quality Assurance Engineer with more than 15 years
-of experience leading quality engineering strategy, driving automation-first
-testing, and delivering reliable software in enterprise and regulated
-environments.
+I am a Senior Quality Assurance Engineer with over 15 years of experience
+building, validating, and scaling reliable software systems in enterprise and
+regulated environments.
 
-I have designed and implemented scalable automation frameworks, reduced manual
-regression effort by up to 96 percent, and partnered closely with engineering,
-product, and leadership teams to improve release confidence and delivery speed.
+My background includes designing automation frameworks, integrating testing
+into CI/CD pipelines, validating APIs and data layers, and partnering closely
+with engineering and product teams to reduce risk and improve delivery speed.
 
-I am now intentionally expanding my scope into Python development and Applied AI
-engineering, leveraging my strengths in data validation, system reliability,
-API behavior, and risk-based thinking to build and validate intelligent,
-data-driven systems.
+I am now intentionally expanding into Python development and Applied AI
+engineering, focusing on building practical, production-minded systems.
+My strengths lie in data validation, system reliability, API behavior,
+and verifying that intelligent systems behave correctly, consistently,
+and safely.
+
+This combination allows me to approach AI-enabled systems not just as a
+developer, but as an engineer who understands failure modes, edge cases,
+and real-world constraints.
 
 ---
 
